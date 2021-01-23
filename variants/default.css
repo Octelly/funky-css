@@ -1,0 +1,23 @@
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {background:none; background-color:#222222d0; backdrop-filter: blur(30px);}
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {background:none; background-color:#222222d0; filter: backdrop-blur(30px);}
+
+/* Narrow the login form */
+#loginPage .readOnlyContent, #loginPage form {max-width: 22em;}
+
+/* Hide "please login" text, margin is to prevent login form moving too far up */
+#loginPage h1 {display: none}
+#loginPage .padded-left.padded-right.padded-bottom-page {margin-top: 50px}
+
+/* Hide "manual" and "forgot" buttons */
+#loginPage .raised.cancel.block.btnManual.emby-button {display: none}
+#loginPage .raised.cancel.block.btnForgotPassword.emby-button {display: none}
+
+/*Size episode preview images in a more compact way*/
+.listItemImage.listItemImage-large.itemAction.lazy {height: 110px;}
+.listItem-content {height: 115px;}
+.secondary.listItem-overview.listItemBodyText {height: 61px; margin: 0;}
+.listItemImageButton {margin: auto; font-size: 1.6em !important;}
+
+/*Make watched icon dark and transparent*/
+.playedIndicator {background: #00000058; box-shadow: none;}
+.countIndicator {box-shadow: none;}
