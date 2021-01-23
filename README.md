@@ -25,6 +25,10 @@ A valid CSS import link links to any of the files in the ``variants`` directory 
 | ------- | ------ |
 | Default | ``@import url('https://raw.githubusercontent.com/Johnystar/funky-css/main/variants/default.css');`` |
 
+### When behing an Nginx reverse proxy
+
+If the theme isn't working for you and you have Jellyfin set up behind an Nginx reverse proxy according to [Jellyfin's docs](https://jellyfin.org/docs/general/networking/nginx.html), you might want to check [this fix](https://github.com/CTalvio/Monochromic#using-with-reverse-proxy) out. (some changes necessary)
+
 ## Updating the theme
 
 Jellyfin always loads the theme directly from GitHub, nothing to worry about.
