@@ -21,3 +21,13 @@
 /*Make watched icon dark and transparent*/
 .playedIndicator {background: #00000058; box-shadow: none;}
 .countIndicator {box-shadow: none;}
+
+@keyframes rainbow {
+	from {
+		-webkit-filter: hue-rotate(0deg);
+	}
+
+	to {
+		-webkit-filter: hue-rotate(360deg);
+	}
+}
