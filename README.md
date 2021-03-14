@@ -1,6 +1,6 @@
 # Funky CSS
 
-![Tested Jellyfin version](https://img.shields.io/badge/Jellyfin-10.6.4-%2300A4DC)
+![Tested Jellyfin version](https://img.shields.io/badge/Jellyfin-10.7.0-%2300A4DC)
 
 A Jellyfin theme
 
