@@ -33,3 +33,6 @@
 		-webkit-filter: hue-rotate(360deg);
 	}
 }
+
+/*Octofin logo*/
+.adminDrawerLogo img { content: url("https://jf-funky-css.johnystar.moe/jellyfin-octofin.png") !important; } imgLogoIcon { content: url("https://jf-funky-css.johnystar.moe/jellyfin-octofin.png") !important; } .pageTitleWithLogo { background-image: url("https://jf-funky-css.johnystar.moe/jellyfin-octofin.png") !important; }
